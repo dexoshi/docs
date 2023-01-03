@@ -4,6 +4,12 @@
 
 Dexoshi is a Twitter game. This means all actions are done via tweeting or retweting.
 
+## Retweet to Mint
+
+Retweet to claim a free card
+
+![](https://user-images.githubusercontent.com/19412160/210457565-d9a36b40-f13b-46df-a3c8-bf9b314448e1.jpeg)
+
 ## Get Twitter User's Info
 
 Tweet
