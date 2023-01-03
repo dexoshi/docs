@@ -1,4 +1,4 @@
 # Table of contents
 
 * [Dexoshi](README.md)
-  * [Commands](readme/commands.md)
+  * [How To Play](readme/how-to-play.md)
