@@ -16,9 +16,9 @@ Name: Ivarick the Teensy Toad
 
 Card ID: #9900
 
-Image:
+Image:&#x20;
 
-<img src=".gitbook/assets/9900 (1).jpg" alt="" data-size="original">
+![](https://user-images.githubusercontent.com/19412160/210449650-140b30aa-d933-4341-be70-8015c09f83b8.jpg)
 
 Cards can be minted, burned, merged and transferred.
 
@@ -101,4 +101,8 @@ Example
 ```
 @dexoshi burn 9900
 ```
+
+
+
+
 
