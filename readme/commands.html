@@ -186,34 +186,39 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="commands">Commands</h1>
-<h3 id="get-twitter-users-info">Get Twitter User&apos;s Info</h3>
+                                <h1 id="how-to-play">How To Play</h1>
+<h2 id="overview">Overview</h2>
+<p>Dexoshi is a Twitter game. This means all actions are done via tweeting or retweting.</p>
+<h2 id="retweet-to-mint">Retweet to Mint</h2>
+<p>Retweet to claim a free card</p>
+<p><img src="https://user-images.githubusercontent.com/19412160/210459153-03065e0b-3107-42d8-bc12-3e35d65d025b.jpeg" alt="Screenshot 2023-01-03 at 6 20 11 PM"></p>
+<h2 id="get-twitter-users-info">Get Twitter User&apos;s Info</h2>
 <p>Tweet</p>
 <pre><code>@dexoshi info &lt;@TWITTER_HANDLE&gt;
 </code></pre><p>Example</p>
 <pre><code>@dexoshi info @elonmusk
-</code></pre><h3 id="gift-a-card-you-own-to-user">Gift a Card You Own to User</h3>
+</code></pre><h2 id="gift-a-card-you-own-to-user">Gift a Card You Own to User</h2>
 <p>Tweet</p>
-<pre><code>@dexoshi gift &lt;@TWITTER_HANDLE&gt; &lt;TOKEN_ID&gt;
+<pre><code>@dexoshi gift &lt;@TWITTER_HANDLE&gt; &lt;CARD_ID&gt;
 </code></pre><p>Example</p>
 <pre><code>@dexoshi gift @elonmusk 9900
-</code></pre><h3 id="merge-cards-to-create-a-new-card">Merge Cards to Create a New Card</h3>
+</code></pre><h2 id="merge-cards-to-create-a-new-card">Merge Cards to Create a New Card</h2>
 <p>Player owns Card ID: #2 and #3</p>
 <p>Merging will burn cards #2 and #3 to create card #6</p>
-<p>Math: 2 * 3 = 6</p>
+<p>Math: 10 * 6 = 60</p>
 <p>Tweet</p>
-<pre><code>@dexoshi merge &lt;TOKEN_ID_1&gt; &lt;TOKEN_ID_2&gt;
+<pre><code>@dexoshi merge &lt;CARD_ID_2&gt; &lt;CARD_ID_2&gt;
 </code></pre><p>Example</p>
-<pre><code>@dexoshi burn 2 3
-</code></pre><h3 id="transfer-to-address">Transfer To Address</h3>
+<pre><code>@dexoshi burn 10 6
+</code></pre><h2 id="transfer-to-address">Transfer To Address</h2>
 <p>Transfer to a 0x address</p>
 <p>Tweet</p>
-<pre><code>@dexoshi transfer &lt;0xADDRESS&gt; &lt;TOKEN_ID&gt; &lt;AMOUNT&gt;
+<pre><code>@dexoshi transfer &lt;0xADDRESS&gt; &lt;CARD_ID&gt; &lt;AMOUNT&gt;
 </code></pre><p>Example</p>
 <pre><code>@dexoshi transfer 0xdD4c825203f97984e7867F11eeCc813A036089D1 9900 1
-</code></pre><h3 id="burn">Burn</h3>
+</code></pre><h2 id="burn">Burn</h2>
 <p>Tweet</p>
-<pre><code>@dexoshi burn &lt;TOKEN_ID&gt;
+<pre><code>@dexoshi burn &lt;CARD_ID&gt;
 </code></pre><p>Example</p>
 <pre><code>@dexoshi burn 9900
 </code></pre>
@@ -259,7 +264,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"How To Play","level":"1.2","depth":1,"next":{"title":"Rarity","level":"1.3","depth":1,"path":"rarity.md","ref":"rarity.md","articles":[]},"previous":{"title":"Dexoshi","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"readme/commands.md","mtime":"2023-01-03T23:33:54.924Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-01-03T23:34:28.988Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"How To Play","level":"1.2","depth":1,"next":{"title":"Rarity","level":"1.3","depth":1,"path":"rarity.md","ref":"rarity.md","articles":[]},"previous":{"title":"Dexoshi","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"readme/commands.md","mtime":"2023-01-03T23:40:33.300Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-01-03T23:41:04.306Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
