@@ -12,20 +12,20 @@
         
         
     
-    <link rel="stylesheet" href="gitbook/style.css">
+    <link rel="stylesheet" href="../gitbook/style.css">
 
     
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
                 
             
         
@@ -53,14 +53,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="rarity.html" />
+    <link rel="next" href="../rarity.html" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="../" />
     
 
     </head>
@@ -89,9 +89,9 @@
         
         
     
-        <li class="chapter " data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="../">
             
-                <a href="./">
+                <a href="../">
             
                     
                     Dexoshi
@@ -102,9 +102,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="how-to-play.html">
+        <li class="chapter active" data-level="1.2" data-path="commands.html">
             
-                <a href="how-to-play.html">
+                <a href="commands.html">
             
                     
                     How To Play
@@ -115,12 +115,25 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="rarity.html">
+        <li class="chapter " data-level="1.3" data-path="../rarity.html">
             
-                <a href="rarity.html">
+                <a href="../rarity.html">
             
                     
                     Rarity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../technical.html">
+            
+                <a href="../technical.html">
+            
+                    
+                    Technical
             
                 </a>
             
@@ -158,7 +171,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >How To Play</a>
+        <a href=".." >How To Play</a>
     </h1>
 </div>
 
@@ -173,34 +186,32 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="how-to-play">How To Play</h1>
-<h2 id="overview">Overview</h2>
-<p>Dexoshi is a Twitter game. This means all actions are done via tweeting or retweting.</p>
-<h2 id="get-twitter-users-info">Get Twitter User&apos;s Info</h2>
+                                <h1 id="commands">Commands</h1>
+<h3 id="get-twitter-users-info">Get Twitter User&apos;s Info</h3>
 <p>Tweet</p>
 <pre><code>@dexoshi info &lt;@TWITTER_HANDLE&gt;
 </code></pre><p>Example</p>
 <pre><code>@dexoshi info @elonmusk
-</code></pre><h2 id="gift-a-card-you-own-to-user">Gift a Card You Own to User</h2>
+</code></pre><h3 id="gift-a-card-you-own-to-user">Gift a Card You Own to User</h3>
 <p>Tweet</p>
 <pre><code>@dexoshi gift &lt;@TWITTER_HANDLE&gt; &lt;TOKEN_ID&gt;
 </code></pre><p>Example</p>
 <pre><code>@dexoshi gift @elonmusk 9900
-</code></pre><h2 id="merge-cards-to-create-a-new-card">Merge Cards to Create a New Card</h2>
+</code></pre><h3 id="merge-cards-to-create-a-new-card">Merge Cards to Create a New Card</h3>
 <p>Player owns Card ID: #2 and #3</p>
 <p>Merging will burn cards #2 and #3 to create card #6</p>
-<p>Math: 10 * 6 = 60</p>
+<p>Math: 2 * 3 = 6</p>
 <p>Tweet</p>
 <pre><code>@dexoshi merge &lt;TOKEN_ID_1&gt; &lt;TOKEN_ID_2&gt;
 </code></pre><p>Example</p>
-<pre><code>@dexoshi burn 10 6
-</code></pre><h2 id="transfer-to-address">Transfer To Address</h2>
+<pre><code>@dexoshi burn 2 3
+</code></pre><h3 id="transfer-to-address">Transfer To Address</h3>
 <p>Transfer to a 0x address</p>
 <p>Tweet</p>
 <pre><code>@dexoshi transfer &lt;0xADDRESS&gt; &lt;TOKEN_ID&gt; &lt;AMOUNT&gt;
 </code></pre><p>Example</p>
 <pre><code>@dexoshi transfer 0xdD4c825203f97984e7867F11eeCc813A036089D1 9900 1
-</code></pre><h2 id="burn">Burn</h2>
+</code></pre><h3 id="burn">Burn</h3>
 <p>Tweet</p>
 <pre><code>@dexoshi burn &lt;TOKEN_ID&gt;
 </code></pre><p>Example</p>
@@ -232,12 +243,12 @@
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Dexoshi">
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Dexoshi">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="rarity.html" class="navigation navigation-next " aria-label="Next page: Rarity">
+                <a href="../rarity.html" class="navigation navigation-next " aria-label="Next page: Rarity">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -248,37 +259,37 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"How To Play","level":"1.2","depth":1,"next":{"title":"Rarity","level":"1.3","depth":1,"path":"rarity.md","ref":"rarity.md","articles":[]},"previous":{"title":"Dexoshi","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"how-to-play.md","mtime":"2023-01-03T22:45:55.239Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-01-03T22:46:26.358Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"How To Play","level":"1.2","depth":1,"next":{"title":"Rarity","level":"1.3","depth":1,"path":"rarity.md","ref":"rarity.md","articles":[]},"previous":{"title":"Dexoshi","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"readme/commands.md","mtime":"2023-01-03T23:31:26.741Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-01-03T23:34:14.018Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
         
-    <script src="gitbook/gitbook.js"></script>
-    <script src="gitbook/theme.js"></script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
     
         
-        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
         
     
 

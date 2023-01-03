@@ -26,17 +26,15 @@ will get card #13000
 
 How? This is where modulus math (%) comes in
 
-$$
-(cardA * cardB)\ \% \ totalUniqueCards = mergedCard
-$$
-
-
+```
+(cardA * cardB) % totalUniqueCards = mergedCard
+```
 
 or
 
-$$
-(11000 * 3)\ \% \ 20000 = 13000
-$$
+```
+(11000 * 3) % 20000 = 13000
+```
 
 ## Card Rarity
 
@@ -50,7 +48,7 @@ Cards such as #100 are considered "common" because there are many ways players c
 10 * 10  = 100
 ```
 
-This is called [factorization](https://en.wikipedia.org/wiki/Factorization).
+ie [factorization](https://en.wikipedia.org/wiki/Factorization)
 
 \#100 has more factors than #21
 
@@ -59,5 +57,9 @@ This is called [factorization](https://en.wikipedia.org/wiki/Factorization).
 3 * 7  = 21
 ```
 
-Since there are fewer options for #21 a player who owns card #21 put in significantly more work merging the correct card combinations to produce the desired outcome.
+Since there are fewer options for #21 it will take significantly more work merging the correct card combinations to produce the desired #21.
+
+
+
+
 

@@ -1,10 +1,6 @@
-# How To Play
+# Commands
 
-## Overview
-
-Dexoshi is a Twitter game. This means all actions are done via tweeting or retweting.
-
-## Get Twitter User's Info
+### Get Twitter User's Info
 
 Tweet
 
@@ -18,7 +14,7 @@ Example
 @dexoshi info @elonmusk
 ```
 
-## Gift a Card You Own to User
+### Gift a Card You Own to User
 
 Tweet
 
@@ -32,13 +28,13 @@ Example
 @dexoshi gift @elonmusk 9900
 ```
 
-## Merge Cards to Create a New Card
+### Merge Cards to Create a New Card
 
 Player owns Card ID: #2 and #3
 
 Merging will burn cards #2 and #3 to create card #6
 
-Math: 10 \* 6 = 60
+Math: 2 \* 3 = 6
 
 Tweet
 
@@ -49,10 +45,10 @@ Tweet
 Example
 
 ```
-@dexoshi burn 10 6
+@dexoshi burn 2 3
 ```
 
-## Transfer To Address
+### Transfer To Address
 
 Transfer to a 0x address
 
@@ -68,7 +64,7 @@ Example
 @dexoshi transfer 0xdD4c825203f97984e7867F11eeCc813A036089D1 9900 1
 ```
 
-## Burn
+### Burn
 
 Tweet
 
