@@ -84,3 +84,10 @@ function isApprovedForAll(
     return ERC1155.isApprovedForAll(_owner, _operator);
 }
 ```
+
+
+
+
+
+
+

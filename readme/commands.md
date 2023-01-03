@@ -1,16 +1,6 @@
-# How To Play
+# Commands
 
-## Overview
-
-Dexoshi is a Twitter game. This means all actions are done via tweeting or retweting.
-
-## Retweet to Mint
-
-Retweet to claim a free card
-
-![](https://user-images.githubusercontent.com/19412160/210457565-d9a36b40-f13b-46df-a3c8-bf9b314448e1.jpeg)
-
-## Get Twitter User's Info
+### Get Twitter User's Info
 
 Tweet
 
@@ -24,12 +14,12 @@ Example
 @dexoshi info @elonmusk
 ```
 
-## Gift a Card You Own to User
+### Gift a Card You Own to User
 
 Tweet
 
 ```
-@dexoshi gift <@TWITTER_HANDLE> <CARD_ID>
+@dexoshi gift <@TWITTER_HANDLE> <TOKEN_ID>
 ```
 
 Example
@@ -38,34 +28,34 @@ Example
 @dexoshi gift @elonmusk 9900
 ```
 
-## Merge Cards to Create a New Card
+### Merge Cards to Create a New Card
 
 Player owns Card ID: #2 and #3
 
 Merging will burn cards #2 and #3 to create card #6
 
-Math: 10 \* 6 = 60
+Math: 2 \* 3 = 6
 
 Tweet
 
 ```
-@dexoshi merge <CARD_ID_2> <CARD_ID_2>
+@dexoshi merge <TOKEN_ID_1> <TOKEN_ID_2>
 ```
 
 Example
 
 ```
-@dexoshi burn 10 6
+@dexoshi burn 2 3
 ```
 
-## Transfer To Address
+### Transfer To Address
 
 Transfer to a 0x address
 
 Tweet
 
 ```
-@dexoshi transfer <0xADDRESS> <CARD_ID> <AMOUNT>
+@dexoshi transfer <0xADDRESS> <TOKEN_ID> <AMOUNT>
 ```
 
 Example
@@ -74,12 +64,12 @@ Example
 @dexoshi transfer 0xdD4c825203f97984e7867F11eeCc813A036089D1 9900 1
 ```
 
-## Burn
+### Burn
 
 Tweet
 
 ```
-@dexoshi burn <CARD_ID>
+@dexoshi burn <TOKEN_ID>
 ```
 
 Example
