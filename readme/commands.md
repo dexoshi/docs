@@ -23,7 +23,7 @@ Example
 Tweet
 
 ```
-@dexoshi gift <@TWITTER_HANDLE> <TOKEN_ID>
+@dexoshi gift <@TWITTER_HANDLE> <CARD_ID>
 ```
 
 Example
@@ -43,7 +43,7 @@ Math: 10 \* 6 = 60
 Tweet
 
 ```
-@dexoshi merge <TOKEN_ID_1> <TOKEN_ID_2>
+@dexoshi merge <CARD_ID_2> <CARD_ID_2>
 ```
 
 Example
@@ -59,7 +59,7 @@ Transfer to a 0x address
 Tweet
 
 ```
-@dexoshi transfer <0xADDRESS> <TOKEN_ID> <AMOUNT>
+@dexoshi transfer <0xADDRESS> <CARD_ID> <AMOUNT>
 ```
 
 Example
@@ -73,7 +73,7 @@ Example
 Tweet
 
 ```
-@dexoshi burn <TOKEN_ID>
+@dexoshi burn <CARD_ID>
 ```
 
 Example
