@@ -39,7 +39,7 @@ If a player never has a wallet, how can they receive tokens? What address do you
 
 Great question! This can be done by mapping a user's twitter Id to an address. Each twitter account has a unique twitter id.
 
-{% embed url="https://www.codeofaninja.com/tools/find-twitter-id/" %}
+[https://www.codeofaninja.com/tools/find-twitter-id/](https://www.codeofaninja.com/tools/find-twitter-id/)
 
 For example, `@elonmusk` has twitter ID 44196394.
 
