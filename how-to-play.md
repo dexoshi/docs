@@ -38,7 +38,7 @@ Player owns Card ID: #2 and #3
 
 Merging will burn cards #2 and #3 to create card #6
 
-Math: 2 \* 3 = 6
+Math: 10 \* 6 = 60
 
 Tweet
 
@@ -49,7 +49,7 @@ Tweet
 Example
 
 ```
-@dexoshi burn 2 3
+@dexoshi burn 10 6
 ```
 
 ## Transfer To Address
