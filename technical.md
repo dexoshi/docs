@@ -51,7 +51,7 @@ function twitterIdToAddress(uint64 _twitterId) public pure returns(address) {
 }
 ```
 
-This means each Twitter Id has a unique 0x address :tada:
+This means each Twitter Id has a unique 0x address.
 
 ## Sell For Free
 
