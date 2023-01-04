@@ -40,9 +40,9 @@ Example
 
 ## Merge Cards to Create a New Card
 
-Player owns Card ID: #2 and #3
+Player owns Card ID: #10 and #6
 
-Merging will burn cards #2 and #3 to create card #6
+Merging will burn cards #10 and #6 to create card #60
 
 Math: 10 \* 6 = 60
 
