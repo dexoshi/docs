@@ -18,7 +18,7 @@ Card ID: #9900
 
 Image:
 
-![9900](https://user-images.githubusercontent.com/19412160/210462871-110a0df1-611b-4bf9-b3b7-6dae03b22524.jpg)
+![](https://user-images.githubusercontent.com/19412160/210462871-110a0df1-611b-4bf9-b3b7-6dae03b22524.jpg)
 
 Cards can be minted, burned, merged and transferred.
 
