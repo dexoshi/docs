@@ -24,7 +24,7 @@ Since there are 20,000 unique cards, what if Alice merges #11,000 and #2?
 will get card #13000
 ```
 
-How? This is where modulus math (%) comes in
+How? This is where modulus % math comes in
 
 ```
 (cardA * cardB) % totalUniqueCards = mergedCard
@@ -48,7 +48,7 @@ Cards such as #100 are considered "common" because there are many ways players c
 10 * 10  = 100
 ```
 
-ie [factorization](https://en.wikipedia.org/wiki/Factorization)
+ie. [factorization](https://en.wikipedia.org/wiki/Factorization)
 
 \#100 has more factors than #21
 
