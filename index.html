@@ -188,43 +188,12 @@
 <h2 id="overview">Overview</h2>
 <p>Dexoshi is a Twitter trading card game on the blockchain. There are a total of 20,000 unique cards and amount of individual cards can be infinite. But not all cards are equal!</p>
 <h2 id="cards">Cards</h2>
-<p>Each card has certain properties</p>
+<p>Cards can be minted, burned, merged and transferred. Each card has certain properties</p>
 <p>Name: Ivarick the Teensy Toad</p>
 <p>Card ID: #9900</p>
 <p>Image:</p>
 <p><img src="https://user-images.githubusercontent.com/19412160/210462871-110a0df1-611b-4bf9-b3b7-6dae03b22524.jpg" alt=""></p>
-<p>Cards can be minted, burned, merged and transferred.</p>
-<h2 id="twitter-commands">Twitter Commands</h2>
-<h3 id="get-twitter-users-info">Get Twitter User&apos;s Info</h3>
-<p>Tweet</p>
-<pre><code>@dexoshi info &lt;@TWITTER_HANDLE&gt;
-</code></pre><p>Example</p>
-<pre><code>@dexoshi info @elonmusk
-</code></pre><h3 id="gift-a-card-you-own-to-user">Gift a Card You Own to User</h3>
-<p>Tweet</p>
-<pre><code>@dexoshi gift &lt;@TWITTER_HANDLE&gt; &lt;TOKEN_ID&gt;
-</code></pre><p>Example</p>
-<pre><code>@dexoshi gift @elonmusk 9900
-</code></pre><h3 id="merge-cards-to-create-a-new-card">Merge Cards to Create a New Card</h3>
-<p>Player owns Card ID: #2 and #3</p>
-<p>Merging will burn cards #2 and #3 to create card #6</p>
-<p>Math: 2 * 3 = 6</p>
-<p>Tweet</p>
-<pre><code>@dexoshi merge &lt;TOKEN_ID_1&gt; &lt;TOKEN_ID_2&gt;
-</code></pre><p>Example</p>
-<pre><code>@dexoshi burn 2 3
-</code></pre><h3 id="transfer-to-address">Transfer To Address</h3>
-<p>Transfer to a 0x address</p>
-<p>Tweet</p>
-<pre><code>@dexoshi transfer &lt;0xADDRESS&gt; &lt;TOKEN_ID&gt; &lt;AMOUNT&gt;
-</code></pre><p>Example</p>
-<pre><code>@dexoshi transfer 0xdD4c825203f97984e7867F11eeCc813A036089D1 9900 1
-</code></pre><h3 id="burn">Burn</h3>
-<p>Tweet</p>
-<pre><code>@dexoshi burn &lt;TOKEN_ID&gt;
-</code></pre><p>Example</p>
-<pre><code>@dexoshi burn 9900
-</code></pre>
+
                                 
                                 </section>
                             
@@ -263,7 +232,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"description":"https://dexoshi.github.io/docs/","title":"Dexoshi","level":"1.1","depth":1,"next":{"title":"How To Play","level":"1.2","depth":1,"path":"readme/commands.md","ref":"readme/commands.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2023-01-04T00:41:35.621Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-01-04T00:42:12.536Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"description":"https://dexoshi.github.io/docs/","title":"Dexoshi","level":"1.1","depth":1,"next":{"title":"How To Play","level":"1.2","depth":1,"path":"readme/commands.md","ref":"readme/commands.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2023-01-04T00:50:33.699Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-01-04T00:51:04.688Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
