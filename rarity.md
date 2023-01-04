@@ -2,7 +2,7 @@
 
 ## Overview
 
-Since cards can be merged to create new ones, each card has a rarity. Creating rare cards require multiple merges. Even though the mechanics are simple, the math is special.
+Since cards can be merged to create new ones, each card has a rarity. Creating rare cards require multiple merges. Even though the mechanics are simple, the math is thoughtful.
 
 ## Multiplication, Modulus and Prime Numbers
 
