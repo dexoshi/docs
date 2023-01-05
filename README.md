@@ -4,6 +4,10 @@ description: https://dexoshi.github.io/docs/
 
 # Dexoshi
 
+## Game
+
+[https://twitter.com/dexoshi](https://twitter.com/dexoshi)
+
 ## Overview
 
 Dexoshi is a Twitter trading card game on the blockchain. There are a total of 20,000 unique cards and amount of individual cards can be infinite. But not all cards are equal!
