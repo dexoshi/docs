@@ -59,27 +59,7 @@ ie. [factorization](https://en.wikipedia.org/wiki/Factorization)
 
 Since there are fewer options for #21 it will take significantly more work merging the correct card combinations to produce the desired #21.
 
-## Factor Percentages
 
-Below are the number (count) of factors for 20,000 cards.
-
-| Token ID | Count  | Percent |
-| -------- | ------ | ------- |
-| 0        | 294000 | 14.7    |
-| 1        | 8000   | 0.4     |
-| 2        | 16000  | 0.8     |
-| 3        | 8000   | 0.4     |
-| 4        | 24000  | 1.2     |
-| 5        | 16000  | 0.8     |
-| 6        | 16000  | 0.8     |
-| 7        | 8000   | 0.4     |
-| 8        | 32000  | 1.6     |
-| 9        | 8000   | 0.4     |
-| 10       | 32000  | 1.6     |
-
-Below is the complete list for all 20,000 cards:
-
-[https://docs.google.com/spreadsheets/d/1YY4cte986\_I4A0SkwTn8LCLQE7hbN2Ogs5xht0sHccA/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1YY4cte986\_I4A0SkwTn8LCLQE7hbN2Ogs5xht0sHccA/edit?usp=sharing)
 
 
 
